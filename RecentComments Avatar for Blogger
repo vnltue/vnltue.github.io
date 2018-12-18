@@ -1,0 +1,38 @@
+<style type="text/css">
+.item-view .content .main-top .main .post-body ul.tb_recent_comments {padding:0px;}
+.tb_recent_comments {float: left;}
+ul.tb_recent_comments{margin-top: -70px;margin-bottom: 10px;list-style:none;}
+.tb_recent_comments li{width:48%;display: inline-table; overflow:hidden;margin-right: 18px;padding:5px 0;border-bottom: 1px #ddd dotted;background:none !important;list-style:none;}
+.tb_recent_comments li a:after {content:':';color:#333;}
+.tb_recent_comments li a{color:#333;text-transform:capitalize;word-wrap: break-word;text-decoration:none;font-weight:bold;list-style:none;}
+.tb_recent_comments li a:hover{color:#2FA1B3;}
+.avatarImage{padding:0px;float:left;margin:0 7px 0 0;overflow:hidden;border: 0px #C2C2C2 solid;}
+.tb_recent_comments li img{width:100%;height:100%;float:left;border: 1px solid #dedede;padding:2px;overflow:hidden;display:block;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;-ms-border-radius: 50%;-oborder-radius: 50%;}
+.tb_recent_comments li img:hover{}
+.tb_recent_comments li span{margin: 0 0 0 5px;font-size: 15px;font-style: italic;}
+@media screen and (min-width:240px) and (max-width:319px){
+.tb_recent_comments li{float:none;display: inline-block;width:92%;margin:0 0 15px 0;}
+}
+@media screen and (min-width:320px) and (max-width:479px){
+.tb_recent_comments li{float:none;width:100%;margin:0;}
+}
+@media screen and (min-width:480px) and (max-width:767px){
+.tb_recent_comments li{float:none;width:100%;margin:0;}
+}
+@media screen and (max-width:1023px) and (min-width:768px){
+.tb_recent_comments li{float:none;width:100%;margin:0;}
+}
+</style>
+<script defer='defer' type="text/javascript">
+//<![CDATA[
+// Recent Comments Settings
+var
+numComments = 40,
+showAvatar = true,
+avatarSize = 40,
+characters = 160,
+defaultAvatar = "https://2.bp.blogspot.com/-cjIgxPrQnFo/VNRx_OxvKrI/AAAAAAAAYVw/mNf9Q5KjUPI/s1600/user_male_2-100.png",
+hideCredits = true;
+//]]></script>
+<script src="https://cdn.jsdelivr.net/gh/vnltue/vnltue.github.io/RecentCommentsAvatar.js" type="text/javascript"></script>
+<script type="text/javascript" src="/feeds/comments/default?alt=json&callback=tb_recent_comments&max-results=40"></script>
