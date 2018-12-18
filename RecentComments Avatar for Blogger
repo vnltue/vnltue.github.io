@@ -1,7 +1,6 @@
 <style type="text/css">
-.item-view .content .main-top .main .post-body ul.tb_recent_comments {padding:0px;}
 .tb_recent_comments {float: left;}
-ul.tb_recent_comments{margin-top: -70px;margin-bottom: 10px;list-style:none;}
+ul.tb_recent_comments{margin-top: -70px;margin-bottom: 10px;padding:0px;list-style:none;}
 .tb_recent_comments li{width:48%;display: inline-table; overflow:hidden;margin-right: 18px;padding:5px 0;border-bottom: 1px #ddd dotted;background:none !important;list-style:none;}
 .tb_recent_comments li a:after {content:':';color:#333;}
 .tb_recent_comments li a{color:#333;text-transform:capitalize;word-wrap: break-word;text-decoration:none;font-weight:bold;list-style:none;}
