@@ -12,7 +12,7 @@
     "The measure of a man is not how much he has, but how much he gives. - <em>Unknown</em>",
     "The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well. - <em>Ralph Waldo Emerson</em>"
   ];
-  var danhNgonDaHienThi = [];
+var danhNgonDaHienThi = [];
 
   function getRandomQuote() {
     var danhNgonElements = document.getElementsByClassName("danh-ngon");
