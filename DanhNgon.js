@@ -1,5 +1,4 @@
-﻿// Created by TUE www.relaxingworld.org
-  var danhNgon = [
+﻿var danhNgon = [
 "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful. - <em>Albert Schweitzer</em>",
 "Life is a journey filled with twists and turns, and it's during these challenging moments that we discover our true strength. Remember, it's not about avoiding difficulties, but about embracing them and using them as stepping stones to grow and evolve. Each obstacle is an opportunity for self-discovery and self-improvement. So, when faced with challenges, summon your inner courage, believe in your abilities, and keep moving forward.",
 "Love is not about how much you say 'I love you,' but how much you prove that it's true.",
